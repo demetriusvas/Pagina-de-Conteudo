@@ -1,0 +1,19 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top-bar {
+    background-color: #333;
+    color: #FFF;
+    padding: 1rem;
+    font-weight: 700;
+    text-align: center;
+    font-size: 1.33rem;
+    border-bottom: 5px solid #fd8a24;
+}
+
+.container {
+    max-width: 900px;
+    background-color: bisque;
+    margin: 0 auto;
+}

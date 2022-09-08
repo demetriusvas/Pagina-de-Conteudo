@@ -8,12 +8,230 @@ body {
     padding: 1rem;
     font-weight: 700;
     text-align: center;
-    font-size: 1.33rem;
+    font-size: 1.5rem;
     border-bottom: 5px solid #fd8a24;
 }
 
 .container {
     max-width: 900px;
-    background-color: bisque;
     margin: 0 auto;
+}
+
+.titulo {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 4rem;
+    margin: 10px;
+}
+
+.subtitulo {
+    color: #555;
+    margin: 40px 10px;
+    font-size: 1.25rem;
+}
+
+.texto_autor {
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.texto_data {
+    font-size: 0.6rem;
+    color: #CCC;
+    margin: 10px;
+}
+
+.lista-de-links {
+    display: flex;
+}
+
+.lista-de-links li {
+    margin: 10px 10px;
+}
+
+.lista-de-links img {
+    width: 20px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.container-textos{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.texto {
+    color: #555;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin: 30px 0;
+}
+
+.link{
+    margin: 40px 0;
+}
+
+.link a {
+    color: #fd8a24;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+
+.imagem {
+    width: 100%;
+}
+
+.texto-legenda {
+    font-size: 0.8rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+.titulo-topico {
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+@media screen and (min-width: 320px){
+    .top-bar {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        margin: 10px;
+    }
+
+    .subtitulo {
+        margin: 20px 10px;
+        font-size: 0.9rem;
+    }
+
+    .texto {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        margin: 20px 10px;
+    }
+
+    .link{
+        margin: 30px 10px;
+    }
+    
+    .link a {
+        font-size: 0.9rem;
+    }
+
+    .texto-legenda {
+        font-size: 0.7rem;
+        margin: 10px 10px;
+    }
+
+    .titulo-topico {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .top-bar {
+        font-size: 1.3rem;
+        padding: 0.9rem;
+    }
+    
+    .titulo {
+        font-size: 2rem;
+        line-height: 2rem;
+        margin: 10px;
+    }
+
+    .subtitulo {
+        margin: 20px 10px;
+        font-size: 1rem;
+    }
+
+    .container-textos{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .texto {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin: 25px 15px;
+    }
+
+    .link{
+        margin: 35px 10px;
+    }
+    
+    .link a {
+        font-size: 1rem;
+    }
+
+    .texto-legenda {
+        font-size: 0.8rem;
+        margin: 10px 0;
+    }
+
+    .titulo-topico {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .top-bar {
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .titulo {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin: 10px;
+    }
+
+    .subtitulo {
+        margin: 40px 10px;
+        font-size: 1.25rem;
+    }
+
+    .container-textos{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    .texto {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        margin: 30px 0;
+    }
+
+    .link{
+        margin: 40px 0;
+    }
+    
+    .link a {
+        color: #fd8a24;
+        font-weight: bold;
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    .titulo-topico {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px){
+
 }

@@ -3,7 +3,11 @@
 
 Teste o site online - [Página de Conteúdo](https://www.google.com)
 
-<img width="500" alt="Imagem do site" src="https://github.com/demetriusvas/Pagina-de-Conteudo/blob/main/assets/screenshot/Screenshot%20do%20site%20-%201.png">
+<img width="600" alt="Imagem do site" src="https://github.com/demetriusvas/Pagina-de-Conteudo/blob/main/assets/screenshot/Screenshot%20do%20site%20-%201.png">
+
+<img width="600" alt="Imagem do site" src="https://github.com/demetriusvas/Pagina-de-Conteudo/blob/main/assets/screenshot/Screenshot%20do%20site%20-%202.png">
+
+<img width="600" alt="Imagem do site" src="https://github.com/demetriusvas/Pagina-de-Conteudo/blob/main/assets/screenshot/Screenshot%20do%20site%20-%203.png">
 
 ## ✅ Linguagens utilizadas 👇
 
